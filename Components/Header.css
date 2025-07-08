@@ -1,0 +1,96 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #181818;
+  color: #fff;
+  padding: 0 2.5rem;
+  height: 64px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  box-shadow: none;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  color: white;
+  text-transform: lowercase;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.header-center {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.header-menu {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.menu-item {
+  background: none;
+  border: 1px solid white;
+  color: #fff;
+  font-size: 1.08rem;
+  font-weight: 600;
+  padding: 0.4rem 1.1rem;
+  border-radius: 22px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.menu-item i{
+  padding-right: 5px;
+}
+.menu-item:hover {
+  background: #232323;
+  border: 2px solid white;
+}
+
+.header-search {
+  display: flex;
+  align-items: center;
+  background: #232323;
+  border-radius: 22px;
+  padding: 0.2rem 1rem 0.2rem 0.7rem;
+  margin-left: 1.5rem;
+}
+.header-search input {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  width: 300px;
+  padding: 0.3rem 0;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.open-plex-btn {
+  background: #232323;
+  color: #fff;
+  border: none;
+  border-radius: 18px;
+  padding: 0.4rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.open-plex-btn:hover {
+  background: #e65411;
+  color: white;
+}
