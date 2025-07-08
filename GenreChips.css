@@ -1,0 +1,30 @@
+.genre-chips-row {
+  display: flex;
+  overflow-x: auto;
+  gap: 0.7rem;
+  padding: 1.1rem 0 0.7rem 2.5rem;
+  background: transparent;
+  scrollbar-width: none;
+}
+.genre-chips-row::-webkit-scrollbar {
+  display: none;
+}
+
+.genre-chip {
+  background: #232323;
+  color: #fff;
+  border: none;
+  border-radius: 22px;
+  padding: 0.5rem 1.3rem;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  outline: none;
+  white-space: nowrap;
+}
+.genre-chip:hover, .genre-chip.active {
+  background: #ffb300;
+  color: #181818;
+} 
